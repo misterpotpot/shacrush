@@ -1,0 +1,10 @@
+# Exclude everything in the dataset folder except the folder itself
+dataset/*
+!dataset/.gitkeep
+
+# Exclude everything in the trainings folder except the 'main' subfolder
+trainings/*
+!trainings/main/
+
+# Exclude __pycache__ folders
+**/__pycache__/
